@@ -1,0 +1,129 @@
+create database ecommercedb;
+create table ecommercedb.categories(
+categoryId int primary key auto_increment,
+categoryName varchar(45) not null
+);
+
+create table ecommercedb.credit_card_type(
+creditCardTypeId int primary key auto_increment,
+creditCardTypeName varchar(10) not null
+);
+
+create table ecommercedb.customer(
+customerId int primary key auto_increment,
+customerFirstName varchar(40) not null,
+customerLastName varchar(25) not null,
+customerNickname varchar(20) not null,
+customerEmail varchar(50) not null, 
+customerPassword varchar(32) not null,
+customerPhoneNumber varchar(15) not null,
+customerGender varchar(5) not null,
+customerBirthDate date not null,
+customerCountry varchar(50) not null,
+customerCity varchar(35) not null,
+customerRegion varchar(35) not null,
+customerAdress varchar(200) not null,
+customerCreditCardNumber varchar(19) not null,
+creditCardTypeId int not null,
+customerCreditCardExpDate varchar(5) not null,
+customerCreditCardCVV int not null 
+);
+
+create table ecommercedb.payment(
+paymentId int primary key auto_increment,
+paymentType varchar(50) not null
+);
+
+create table ecommercedb.shipper(
+shipperId int primary key auto_increment,
+companyName varchar(50) not null,
+shipperPhoneNumber varchar(15) not null
+);
+
+create table ecommercedb.orders(
+orderId int primary key auto_increment,
+customerId int not null,
+paymentId int not null,
+orderDate datetime not null,
+shipperId int not null,
+paid bit not null
+);
+
+create table ecommercedb.order_details(
+orderDetailId int primary key auto_increment,
+productId int not null,
+price decimal not null,
+count int not null,
+totalPrice decimal not null
+);
+
+create table ecommercedb.product(
+productId int primary key auto_increment,
+productDescription varchar(200) not null,
+supplierId int not null,
+categoryId int not null,
+price decimal not null,
+unitsInStock int not null,
+productAvailable bit not null,
+picture blob(1048576) not null,
+ranking decimal
+);
+
+create table ecommercedb.supplier(
+supplierId int primary key auto_increment,
+companyName varchar(50) not null,
+contactFirstName varchar(40) not null,
+contactLastName varchar(25) not null,
+supplierPhoneNumber varchar(15) not null,
+supplierEmail varchar(50) not null,
+supplierPassword varchar(32) not null,
+supplierCountry varchar(50) not null,
+supplierCity varchar(35) not null,
+supplierRegion varchar(35) not null,
+supplierAdress varchar(200) not null,
+paymentMethod int not null,
+logo blob(1048576) not null
+);
+
+alter table ecommercedb.orders
+add foreign key (customerId) references customer(customerId),
+add foreign key (orderId) references order_details(orderDetailId),
+add foreign key (paymentId) references payment(paymentId),
+add foreign key (shipperId) references shipper(shipperId);
+
+alter table ecommercedb.order_details
+add foreign key (productId) references product(productId);
+
+alter table ecommercedb.product
+add foreign key (categoryId) references categories(categoryId),
+add foreign key (supplierId) references supplier(supplierId);
+
+alter table ecommercedb.customer
+add foreign key (creditCardTypeId) references credit_card_type(creditCardTypeId);
+
+insert into ecommercedb.categories(categoryName) values
+("Giyim"),
+("Ayakkabı"),
+("Çanta"),
+("Kozmetik"),
+("Spor"),
+("Elektronik"),
+("Mobilya"),
+("Dekorasyon"),
+("Kitap");
+
+insert into ecommercedb.credit_card_type(creditCardTypeName) values
+("Mastercard"),
+("Visa"),
+("AmEx"),
+("Troy");
+
+insert into ecommercedb.payment(paymentType) values
+("Kredi Kartı İle"),
+("Banka Kartı İle"),
+("Kredi Kartı veya Banka Kartı İle");
+
+insert into ecommercedb.shipper(companyName, shipperPhoneNumber) values
+("MNG Kargo", "(850) 222-0606"),
+("Aras Kargo", "(216) 538-5500"),
+("Sürat Kargo", "(850) 202-0202");
