@@ -1,0 +1,2553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="topMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="topMenuAccount.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="topMenuAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 20</value>
+  </data>
+  <data name="topMenuAccount.Text" xml:space="preserve">
+    <value>Hesabım</value>
+  </data>
+  <data name="topMenuAccount.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="topMenuAddProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="topMenuAddProduct.Text" xml:space="preserve">
+    <value>Ürün Ekle</value>
+  </data>
+  <data name="topMenuAddProduct.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="topMenuProducts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="topMenuProducts.Text" xml:space="preserve">
+    <value>Ürünlerim</value>
+  </data>
+  <data name="topMenuProducts.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="topMenuProduct.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="topMenuProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="topMenuProduct.Text" xml:space="preserve">
+    <value>Ürünler</value>
+  </data>
+  <data name="topMenuProduct.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="topMenuProduct.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="topMenuCart.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="topMenuCart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 20</value>
+  </data>
+  <data name="topMenuCart.Text" xml:space="preserve">
+    <value>Sepet</value>
+  </data>
+  <data name="topMenuCart.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="topMenuBook.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="topMenuBook.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 20</value>
+  </data>
+  <data name="topMenuBook.Text" xml:space="preserve">
+    <value>Kitap</value>
+  </data>
+  <data name="topMenuBook.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="topMenuDecoration.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="topMenuDecoration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 20</value>
+  </data>
+  <data name="topMenuDecoration.Text" xml:space="preserve">
+    <value>Dekorasyon</value>
+  </data>
+  <data name="topMenuDecoration.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="topMenuFurniture.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="topMenuFurniture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 20</value>
+  </data>
+  <data name="topMenuFurniture.Text" xml:space="preserve">
+    <value>Mobilya</value>
+  </data>
+  <data name="topMenuFurniture.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="topMenuElectronic.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="topMenuElectronic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 20</value>
+  </data>
+  <data name="topMenuElectronic.Text" xml:space="preserve">
+    <value>Elektronik</value>
+  </data>
+  <data name="topMenuElectronic.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="topMenuSport.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="topMenuSport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="topMenuSport.Text" xml:space="preserve">
+    <value>Spor</value>
+  </data>
+  <data name="topMenuSport.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="topMenuCosmetic.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="topMenuCosmetic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 20</value>
+  </data>
+  <data name="topMenuCosmetic.Text" xml:space="preserve">
+    <value>Kozmetik</value>
+  </data>
+  <data name="topMenuCosmetic.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="topMenuBag.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="topMenuBag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 20</value>
+  </data>
+  <data name="topMenuBag.Text" xml:space="preserve">
+    <value>Çanta</value>
+  </data>
+  <data name="topMenuBag.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="topMenuShoes.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="topMenuShoes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 20</value>
+  </data>
+  <data name="topMenuShoes.Text" xml:space="preserve">
+    <value>Ayakkabı</value>
+  </data>
+  <data name="topMenuShoes.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="topMenuClothes.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="topMenuClothes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 20</value>
+  </data>
+  <data name="topMenuClothes.Text" xml:space="preserve">
+    <value>Giyim</value>
+  </data>
+  <data name="topMenuClothes.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="topMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="topMenu.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="topMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1034, 24</value>
+  </data>
+  <data name="topMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;topMenu.Name" xml:space="preserve">
+    <value>topMenu</value>
+  </data>
+  <data name="&gt;&gt;topMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;topMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;topMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>797, 229</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 95</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Ürünü Onayla</value>
+  </data>
+  <data name="button1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="button1.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>groupCart</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="listProductsInCart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 125</value>
+  </data>
+  <data name="listProductsInCart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 199</value>
+  </data>
+  <data name="listProductsInCart.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;listProductsInCart.Name" xml:space="preserve">
+    <value>listProductsInCart</value>
+  </data>
+  <data name="&gt;&gt;listProductsInCart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listProductsInCart.Parent" xml:space="preserve">
+    <value>groupCart</value>
+  </data>
+  <data name="&gt;&gt;listProductsInCart.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblTotalPrice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTotalPrice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTotalPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>697, 210</value>
+  </data>
+  <data name="lblTotalPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="lblTotalPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="lblTotalPrice.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblTotalPrice.Name" xml:space="preserve">
+    <value>lblTotalPrice</value>
+  </data>
+  <data name="&gt;&gt;lblTotalPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTotalPrice.Parent" xml:space="preserve">
+    <value>groupCart</value>
+  </data>
+  <data name="&gt;&gt;lblTotalPrice.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblTotalPriceText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTotalPriceText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTotalPriceText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>623, 210</value>
+  </data>
+  <data name="lblTotalPriceText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="lblTotalPriceText.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="lblTotalPriceText.Text" xml:space="preserve">
+    <value>Sepet Tutarı:</value>
+  </data>
+  <data name="&gt;&gt;lblTotalPriceText.Name" xml:space="preserve">
+    <value>lblTotalPriceText</value>
+  </data>
+  <data name="&gt;&gt;lblTotalPriceText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTotalPriceText.Parent" xml:space="preserve">
+    <value>groupCart</value>
+  </data>
+  <data name="&gt;&gt;lblTotalPriceText.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnRemoveFromCart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRemoveFromCart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>797, 125</value>
+  </data>
+  <data name="btnRemoveFromCart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 95</value>
+  </data>
+  <data name="btnRemoveFromCart.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="btnRemoveFromCart.Text" xml:space="preserve">
+    <value>Sepetten Kaldır</value>
+  </data>
+  <data name="btnRemoveFromCart.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="btnRemoveFromCart.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveFromCart.Name" xml:space="preserve">
+    <value>btnRemoveFromCart</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveFromCart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveFromCart.Parent" xml:space="preserve">
+    <value>groupCart</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveFromCart.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnPlus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnPlus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPlus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>515, 290</value>
+  </data>
+  <data name="btnPlus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="btnPlus.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;btnPlus.Name" xml:space="preserve">
+    <value>btnPlus</value>
+  </data>
+  <data name="&gt;&gt;btnPlus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPlus.Parent" xml:space="preserve">
+    <value>groupCart</value>
+  </data>
+  <data name="&gt;&gt;btnPlus.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnMinus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnMinus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnMinus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 290</value>
+  </data>
+  <data name="btnMinus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="btnMinus.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;btnMinus.Name" xml:space="preserve">
+    <value>btnMinus</value>
+  </data>
+  <data name="&gt;&gt;btnMinus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMinus.Parent" xml:space="preserve">
+    <value>groupCart</value>
+  </data>
+  <data name="&gt;&gt;btnMinus.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblOrderCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOrderCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 290</value>
+  </data>
+  <data name="lblOrderCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 23</value>
+  </data>
+  <data name="lblOrderCount.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="lblOrderCount.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblOrderCount.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblOrderCount.Name" xml:space="preserve">
+    <value>lblOrderCount</value>
+  </data>
+  <data name="&gt;&gt;lblOrderCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOrderCount.Parent" xml:space="preserve">
+    <value>groupCart</value>
+  </data>
+  <data name="&gt;&gt;lblOrderCount.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnCompleteTheOrder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCompleteTheOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 380</value>
+  </data>
+  <data name="btnCompleteTheOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 51</value>
+  </data>
+  <data name="btnCompleteTheOrder.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="btnCompleteTheOrder.Text" xml:space="preserve">
+    <value>Siparişi Tamamla</value>
+  </data>
+  <data name="btnCompleteTheOrder.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="btnCompleteTheOrder.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;btnCompleteTheOrder.Name" xml:space="preserve">
+    <value>btnCompleteTheOrder</value>
+  </data>
+  <data name="&gt;&gt;btnCompleteTheOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCompleteTheOrder.Parent" xml:space="preserve">
+    <value>groupCart</value>
+  </data>
+  <data name="&gt;&gt;btnCompleteTheOrder.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblCartSupplierText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCartSupplierText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCartSupplierText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>663, 275</value>
+  </data>
+  <data name="lblCartSupplierText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="lblCartSupplierText.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="lblCartSupplierText.Text" xml:space="preserve">
+    <value>Satıcı:</value>
+  </data>
+  <data name="&gt;&gt;lblCartSupplierText.Name" xml:space="preserve">
+    <value>lblCartSupplierText</value>
+  </data>
+  <data name="&gt;&gt;lblCartSupplierText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCartSupplierText.Parent" xml:space="preserve">
+    <value>groupCart</value>
+  </data>
+  <data name="&gt;&gt;lblCartSupplierText.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="pbCartSupplier.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbCartSupplier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 275</value>
+  </data>
+  <data name="pbCartSupplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="pbCartSupplier.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pbCartSupplier.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;pbCartSupplier.Name" xml:space="preserve">
+    <value>pbCartSupplier</value>
+  </data>
+  <data name="&gt;&gt;pbCartSupplier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbCartSupplier.Parent" xml:space="preserve">
+    <value>groupCart</value>
+  </data>
+  <data name="&gt;&gt;pbCartSupplier.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblCartPrice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCartPrice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCartPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>493, 255</value>
+  </data>
+  <data name="lblCartPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="lblCartPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;lblCartPrice.Name" xml:space="preserve">
+    <value>lblCartPrice</value>
+  </data>
+  <data name="&gt;&gt;lblCartPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCartPrice.Parent" xml:space="preserve">
+    <value>groupCart</value>
+  </data>
+  <data name="&gt;&gt;lblCartPrice.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblCartRanking.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCartRanking.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCartRanking.Location" type="System.Drawing.Point, System.Drawing">
+    <value>496, 210</value>
+  </data>
+  <data name="lblCartRanking.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="lblCartRanking.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;lblCartRanking.Name" xml:space="preserve">
+    <value>lblCartRanking</value>
+  </data>
+  <data name="&gt;&gt;lblCartRanking.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCartRanking.Parent" xml:space="preserve">
+    <value>groupCart</value>
+  </data>
+  <data name="&gt;&gt;lblCartRanking.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblCartPriceText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCartPriceText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCartPriceText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 255</value>
+  </data>
+  <data name="lblCartPriceText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="lblCartPriceText.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="lblCartPriceText.Text" xml:space="preserve">
+    <value>Fiyat:</value>
+  </data>
+  <data name="&gt;&gt;lblCartPriceText.Name" xml:space="preserve">
+    <value>lblCartPriceText</value>
+  </data>
+  <data name="&gt;&gt;lblCartPriceText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCartPriceText.Parent" xml:space="preserve">
+    <value>groupCart</value>
+  </data>
+  <data name="&gt;&gt;lblCartPriceText.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblCartRankingText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCartRankingText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCartRankingText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 210</value>
+  </data>
+  <data name="lblCartRankingText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="lblCartRankingText.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="lblCartRankingText.Text" xml:space="preserve">
+    <value>Puan:</value>
+  </data>
+  <data name="&gt;&gt;lblCartRankingText.Name" xml:space="preserve">
+    <value>lblCartRankingText</value>
+  </data>
+  <data name="&gt;&gt;lblCartRankingText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCartRankingText.Parent" xml:space="preserve">
+    <value>groupCart</value>
+  </data>
+  <data name="&gt;&gt;lblCartRankingText.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblProductDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblProductDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 125</value>
+  </data>
+  <data name="lblProductDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 50</value>
+  </data>
+  <data name="lblProductDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;lblProductDescription.Name" xml:space="preserve">
+    <value>lblProductDescription</value>
+  </data>
+  <data name="&gt;&gt;lblProductDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblProductDescription.Parent" xml:space="preserve">
+    <value>groupCart</value>
+  </data>
+  <data name="&gt;&gt;lblProductDescription.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="pbCartProduct.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbCartProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 125</value>
+  </data>
+  <data name="pbCartProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 200</value>
+  </data>
+  <data name="pbCartProduct.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pbCartProduct.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;pbCartProduct.Name" xml:space="preserve">
+    <value>pbCartProduct</value>
+  </data>
+  <data name="&gt;&gt;pbCartProduct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbCartProduct.Parent" xml:space="preserve">
+    <value>groupCart</value>
+  </data>
+  <data name="&gt;&gt;pbCartProduct.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="groupCart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="groupCart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1044, 499</value>
+  </data>
+  <data name="groupCart.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="groupCart.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;groupCart.Name" xml:space="preserve">
+    <value>groupCart</value>
+  </data>
+  <data name="&gt;&gt;groupCart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupCart.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;groupCart.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblRandomProductPriceThree.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRandomProductPriceThree.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRandomProductPriceThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>760, 382</value>
+  </data>
+  <data name="lblRandomProductPriceThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="lblRandomProductPriceThree.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="lblRandomProductPriceThree.Text" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductPriceThree.Name" xml:space="preserve">
+    <value>lblRandomProductPriceThree</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductPriceThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductPriceThree.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductPriceThree.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblRandomProductPriceTwo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRandomProductPriceTwo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRandomProductPriceTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>468, 382</value>
+  </data>
+  <data name="lblRandomProductPriceTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="lblRandomProductPriceTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="lblRandomProductPriceTwo.Text" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductPriceTwo.Name" xml:space="preserve">
+    <value>lblRandomProductPriceTwo</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductPriceTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductPriceTwo.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductPriceTwo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblRandomProductPriceOne.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRandomProductPriceOne.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRandomProductPriceOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 382</value>
+  </data>
+  <data name="lblRandomProductPriceOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="lblRandomProductPriceOne.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="lblRandomProductPriceOne.Text" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductPriceOne.Name" xml:space="preserve">
+    <value>lblRandomProductPriceOne</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductPriceOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductPriceOne.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductPriceOne.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblPriceThree.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPriceThree.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPriceThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>722, 382</value>
+  </data>
+  <data name="lblPriceThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="lblPriceThree.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="lblPriceThree.Text" xml:space="preserve">
+    <value>Fiyat:</value>
+  </data>
+  <data name="&gt;&gt;lblPriceThree.Name" xml:space="preserve">
+    <value>lblPriceThree</value>
+  </data>
+  <data name="&gt;&gt;lblPriceThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPriceThree.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;lblPriceThree.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblPriceTwo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPriceTwo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPriceTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 382</value>
+  </data>
+  <data name="lblPriceTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="lblPriceTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="lblPriceTwo.Text" xml:space="preserve">
+    <value>Fiyat:</value>
+  </data>
+  <data name="&gt;&gt;lblPriceTwo.Name" xml:space="preserve">
+    <value>lblPriceTwo</value>
+  </data>
+  <data name="&gt;&gt;lblPriceTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPriceTwo.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;lblPriceTwo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblPriceOne.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPriceOne.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPriceOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 382</value>
+  </data>
+  <data name="lblPriceOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="lblPriceOne.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="lblPriceOne.Text" xml:space="preserve">
+    <value>Fiyat:</value>
+  </data>
+  <data name="&gt;&gt;lblPriceOne.Name" xml:space="preserve">
+    <value>lblPriceOne</value>
+  </data>
+  <data name="&gt;&gt;lblPriceOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPriceOne.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;lblPriceOne.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnStarFiveThree.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnStarFiveThree.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStarFiveThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>817, 343</value>
+  </data>
+  <data name="btnStarFiveThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnStarFiveThree.TabIndex" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="&gt;&gt;btnStarFiveThree.Name" xml:space="preserve">
+    <value>btnStarFiveThree</value>
+  </data>
+  <data name="&gt;&gt;btnStarFiveThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStarFiveThree.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;btnStarFiveThree.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnStarFiveTwo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnStarFiveTwo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStarFiveTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>525, 343</value>
+  </data>
+  <data name="btnStarFiveTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnStarFiveTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="&gt;&gt;btnStarFiveTwo.Name" xml:space="preserve">
+    <value>btnStarFiveTwo</value>
+  </data>
+  <data name="&gt;&gt;btnStarFiveTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStarFiveTwo.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;btnStarFiveTwo.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnStarFiveOne.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnStarFiveOne.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStarFiveOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 343</value>
+  </data>
+  <data name="btnStarFiveOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnStarFiveOne.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="&gt;&gt;btnStarFiveOne.Name" xml:space="preserve">
+    <value>btnStarFiveOne</value>
+  </data>
+  <data name="&gt;&gt;btnStarFiveOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStarFiveOne.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;btnStarFiveOne.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnStarFourThree.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnStarFourThree.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStarFourThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>794, 343</value>
+  </data>
+  <data name="btnStarFourThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnStarFourThree.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="&gt;&gt;btnStarFourThree.Name" xml:space="preserve">
+    <value>btnStarFourThree</value>
+  </data>
+  <data name="&gt;&gt;btnStarFourThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStarFourThree.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;btnStarFourThree.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnStarFourTwo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnStarFourTwo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStarFourTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 343</value>
+  </data>
+  <data name="btnStarFourTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnStarFourTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>119</value>
+  </data>
+  <data name="&gt;&gt;btnStarFourTwo.Name" xml:space="preserve">
+    <value>btnStarFourTwo</value>
+  </data>
+  <data name="&gt;&gt;btnStarFourTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStarFourTwo.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;btnStarFourTwo.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnStarFourOne.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnStarFourOne.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStarFourOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 343</value>
+  </data>
+  <data name="btnStarFourOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnStarFourOne.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;btnStarFourOne.Name" xml:space="preserve">
+    <value>btnStarFourOne</value>
+  </data>
+  <data name="&gt;&gt;btnStarFourOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStarFourOne.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;btnStarFourOne.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnStarThreeThree.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnStarThreeThree.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStarThreeThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>771, 343</value>
+  </data>
+  <data name="btnStarThreeThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnStarThreeThree.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="&gt;&gt;btnStarThreeThree.Name" xml:space="preserve">
+    <value>btnStarThreeThree</value>
+  </data>
+  <data name="&gt;&gt;btnStarThreeThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStarThreeThree.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;btnStarThreeThree.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnStarThreeTwo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnStarThreeTwo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStarThreeTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 343</value>
+  </data>
+  <data name="btnStarThreeTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnStarThreeTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="&gt;&gt;btnStarThreeTwo.Name" xml:space="preserve">
+    <value>btnStarThreeTwo</value>
+  </data>
+  <data name="&gt;&gt;btnStarThreeTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStarThreeTwo.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;btnStarThreeTwo.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnStarThreeOne.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnStarThreeOne.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStarThreeOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 343</value>
+  </data>
+  <data name="btnStarThreeOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnStarThreeOne.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="&gt;&gt;btnStarThreeOne.Name" xml:space="preserve">
+    <value>btnStarThreeOne</value>
+  </data>
+  <data name="&gt;&gt;btnStarThreeOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStarThreeOne.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;btnStarThreeOne.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btnStarTwoThree.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnStarTwoThree.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStarTwoThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>748, 343</value>
+  </data>
+  <data name="btnStarTwoThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnStarTwoThree.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="&gt;&gt;btnStarTwoThree.Name" xml:space="preserve">
+    <value>btnStarTwoThree</value>
+  </data>
+  <data name="&gt;&gt;btnStarTwoThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStarTwoThree.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;btnStarTwoThree.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="btnStarTwoTwo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnStarTwoTwo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStarTwoTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>456, 343</value>
+  </data>
+  <data name="btnStarTwoTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnStarTwoTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="&gt;&gt;btnStarTwoTwo.Name" xml:space="preserve">
+    <value>btnStarTwoTwo</value>
+  </data>
+  <data name="&gt;&gt;btnStarTwoTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStarTwoTwo.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;btnStarTwoTwo.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="btnStarTwoOne.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnStarTwoOne.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStarTwoOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 343</value>
+  </data>
+  <data name="btnStarTwoOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnStarTwoOne.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;btnStarTwoOne.Name" xml:space="preserve">
+    <value>btnStarTwoOne</value>
+  </data>
+  <data name="&gt;&gt;btnStarTwoOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStarTwoOne.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;btnStarTwoOne.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="btnStarOneThree.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnStarOneThree.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStarOneThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>725, 343</value>
+  </data>
+  <data name="btnStarOneThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnStarOneThree.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="&gt;&gt;btnStarOneThree.Name" xml:space="preserve">
+    <value>btnStarOneThree</value>
+  </data>
+  <data name="&gt;&gt;btnStarOneThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStarOneThree.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;btnStarOneThree.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="btnStarOneTwo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnStarOneTwo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStarOneTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 343</value>
+  </data>
+  <data name="btnStarOneTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnStarOneTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;btnStarOneTwo.Name" xml:space="preserve">
+    <value>btnStarOneTwo</value>
+  </data>
+  <data name="&gt;&gt;btnStarOneTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStarOneTwo.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;btnStarOneTwo.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="btnStarOneOne.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnStarOneOne.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStarOneOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 343</value>
+  </data>
+  <data name="btnStarOneOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnStarOneOne.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="&gt;&gt;btnStarOneOne.Name" xml:space="preserve">
+    <value>btnStarOneOne</value>
+  </data>
+  <data name="&gt;&gt;btnStarOneOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStarOneOne.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;btnStarOneOne.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="pbSupplierLogoThree.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbSupplierLogoThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>855, 317</value>
+  </data>
+  <data name="pbSupplierLogoThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="pbSupplierLogoThree.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pbSupplierLogoThree.TabIndex" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="&gt;&gt;pbSupplierLogoThree.Name" xml:space="preserve">
+    <value>pbSupplierLogoThree</value>
+  </data>
+  <data name="&gt;&gt;pbSupplierLogoThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbSupplierLogoThree.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;pbSupplierLogoThree.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="pbSupplierLogoTwo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbSupplierLogoTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>563, 317</value>
+  </data>
+  <data name="pbSupplierLogoTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="pbSupplierLogoTwo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pbSupplierLogoTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="&gt;&gt;pbSupplierLogoTwo.Name" xml:space="preserve">
+    <value>pbSupplierLogoTwo</value>
+  </data>
+  <data name="&gt;&gt;pbSupplierLogoTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbSupplierLogoTwo.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;pbSupplierLogoTwo.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="pbSupplierLogoOne.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbSupplierLogoOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 317</value>
+  </data>
+  <data name="pbSupplierLogoOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="pbSupplierLogoOne.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pbSupplierLogoOne.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="&gt;&gt;pbSupplierLogoOne.Name" xml:space="preserve">
+    <value>pbSupplierLogoOne</value>
+  </data>
+  <data name="&gt;&gt;pbSupplierLogoOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbSupplierLogoOne.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;pbSupplierLogoOne.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="lblSupplierThree.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSupplierThree.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSupplierThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>813, 317</value>
+  </data>
+  <data name="lblSupplierThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="lblSupplierThree.TabIndex" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="lblSupplierThree.Text" xml:space="preserve">
+    <value>Satıcı:</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierThree.Name" xml:space="preserve">
+    <value>lblSupplierThree</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierThree.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierThree.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="lblSupplierTwo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSupplierTwo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSupplierTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>521, 317</value>
+  </data>
+  <data name="lblSupplierTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="lblSupplierTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>112</value>
+  </data>
+  <data name="lblSupplierTwo.Text" xml:space="preserve">
+    <value>Satıcı:</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierTwo.Name" xml:space="preserve">
+    <value>lblSupplierTwo</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierTwo.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierTwo.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="lblSupplierOne.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSupplierOne.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSupplierOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 317</value>
+  </data>
+  <data name="lblSupplierOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="lblSupplierOne.TabIndex" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="lblSupplierOne.Text" xml:space="preserve">
+    <value>Satıcı:</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierOne.Name" xml:space="preserve">
+    <value>lblSupplierOne</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierOne.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierOne.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="lblRandomProductRankThree.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRandomProductRankThree.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRandomProductRankThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>763, 317</value>
+  </data>
+  <data name="lblRandomProductRankThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="lblRandomProductRankThree.TabIndex" type="System.Int32, mscorlib">
+    <value>109</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductRankThree.Name" xml:space="preserve">
+    <value>lblRandomProductRankThree</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductRankThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductRankThree.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductRankThree.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="lblRandomProductRankTwo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRandomProductRankTwo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRandomProductRankTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>471, 317</value>
+  </data>
+  <data name="lblRandomProductRankTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="lblRandomProductRankTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>108</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductRankTwo.Name" xml:space="preserve">
+    <value>lblRandomProductRankTwo</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductRankTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductRankTwo.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductRankTwo.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="lblRandomProductRankOne.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRandomProductRankOne.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRandomProductRankOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 317</value>
+  </data>
+  <data name="lblRandomProductRankOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="lblRandomProductRankOne.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductRankOne.Name" xml:space="preserve">
+    <value>lblRandomProductRankOne</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductRankOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductRankOne.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductRankOne.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="lblRankingThree.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRankingThree.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRankingThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>722, 317</value>
+  </data>
+  <data name="lblRankingThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="lblRankingThree.TabIndex" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="lblRankingThree.Text" xml:space="preserve">
+    <value>Puan:</value>
+  </data>
+  <data name="&gt;&gt;lblRankingThree.Name" xml:space="preserve">
+    <value>lblRankingThree</value>
+  </data>
+  <data name="&gt;&gt;lblRankingThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRankingThree.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;lblRankingThree.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="lblRankingTwo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRankingTwo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRankingTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 317</value>
+  </data>
+  <data name="lblRankingTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="lblRankingTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="lblRankingTwo.Text" xml:space="preserve">
+    <value>Puan:</value>
+  </data>
+  <data name="&gt;&gt;lblRankingTwo.Name" xml:space="preserve">
+    <value>lblRankingTwo</value>
+  </data>
+  <data name="&gt;&gt;lblRankingTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRankingTwo.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;lblRankingTwo.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="lblRankingOne.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRankingOne.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRankingOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 317</value>
+  </data>
+  <data name="lblRankingOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="lblRankingOne.TabIndex" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="lblRankingOne.Text" xml:space="preserve">
+    <value>Puan:</value>
+  </data>
+  <data name="&gt;&gt;lblRankingOne.Name" xml:space="preserve">
+    <value>lblRankingOne</value>
+  </data>
+  <data name="&gt;&gt;lblRankingOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRankingOne.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;lblRankingOne.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="lblRandomProductThree.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRandomProductThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>722, 269</value>
+  </data>
+  <data name="lblRandomProductThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 45</value>
+  </data>
+  <data name="lblRandomProductThree.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductThree.Name" xml:space="preserve">
+    <value>lblRandomProductThree</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductThree.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductThree.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="lblRandomProductTwo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRandomProductTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 269</value>
+  </data>
+  <data name="lblRandomProductTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 45</value>
+  </data>
+  <data name="lblRandomProductTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductTwo.Name" xml:space="preserve">
+    <value>lblRandomProductTwo</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductTwo.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductTwo.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="lblRandomProductOne.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRandomProductOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 269</value>
+  </data>
+  <data name="lblRandomProductOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 45</value>
+  </data>
+  <data name="lblRandomProductOne.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductOne.Name" xml:space="preserve">
+    <value>lblRandomProductOne</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductOne.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;lblRandomProductOne.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="btnAddToCartThree.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAddToCartThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>725, 404</value>
+  </data>
+  <data name="btnAddToCartThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 30</value>
+  </data>
+  <data name="btnAddToCartThree.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="btnAddToCartThree.Text" xml:space="preserve">
+    <value>Sepete Ekle</value>
+  </data>
+  <data name="&gt;&gt;btnAddToCartThree.Name" xml:space="preserve">
+    <value>btnAddToCartThree</value>
+  </data>
+  <data name="&gt;&gt;btnAddToCartThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddToCartThree.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;btnAddToCartThree.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="btnAddToCartTwo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAddToCartTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 404</value>
+  </data>
+  <data name="btnAddToCartTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 30</value>
+  </data>
+  <data name="btnAddToCartTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="btnAddToCartTwo.Text" xml:space="preserve">
+    <value>Sepete Ekle</value>
+  </data>
+  <data name="&gt;&gt;btnAddToCartTwo.Name" xml:space="preserve">
+    <value>btnAddToCartTwo</value>
+  </data>
+  <data name="&gt;&gt;btnAddToCartTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddToCartTwo.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;btnAddToCartTwo.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="btnAddToCartOne.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAddToCartOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 404</value>
+  </data>
+  <data name="btnAddToCartOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 30</value>
+  </data>
+  <data name="btnAddToCartOne.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="btnAddToCartOne.Text" xml:space="preserve">
+    <value>Sepete Ekle</value>
+  </data>
+  <data name="&gt;&gt;btnAddToCartOne.Name" xml:space="preserve">
+    <value>btnAddToCartOne</value>
+  </data>
+  <data name="&gt;&gt;btnAddToCartOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddToCartOne.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;btnAddToCartOne.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="pbRandomProductThree.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbRandomProductThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>725, 66</value>
+  </data>
+  <data name="pbRandomProductThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 200</value>
+  </data>
+  <data name="pbRandomProductThree.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pbRandomProductThree.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="&gt;&gt;pbRandomProductThree.Name" xml:space="preserve">
+    <value>pbRandomProductThree</value>
+  </data>
+  <data name="&gt;&gt;pbRandomProductThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbRandomProductThree.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;pbRandomProductThree.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="pbRandomProductTwo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbRandomProductTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 66</value>
+  </data>
+  <data name="pbRandomProductTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 200</value>
+  </data>
+  <data name="pbRandomProductTwo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pbRandomProductTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="&gt;&gt;pbRandomProductTwo.Name" xml:space="preserve">
+    <value>pbRandomProductTwo</value>
+  </data>
+  <data name="&gt;&gt;pbRandomProductTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbRandomProductTwo.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;pbRandomProductTwo.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="pbRandomProductOne.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbRandomProductOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 66</value>
+  </data>
+  <data name="pbRandomProductOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 200</value>
+  </data>
+  <data name="pbRandomProductOne.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pbRandomProductOne.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="&gt;&gt;pbRandomProductOne.Name" xml:space="preserve">
+    <value>pbRandomProductOne</value>
+  </data>
+  <data name="&gt;&gt;pbRandomProductOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbRandomProductOne.Parent" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;pbRandomProductOne.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="groupRandomProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-6, -30</value>
+  </data>
+  <data name="groupRandomProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1040, 496</value>
+  </data>
+  <data name="groupRandomProduct.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;groupRandomProduct.Name" xml:space="preserve">
+    <value>groupRandomProduct</value>
+  </data>
+  <data name="&gt;&gt;groupRandomProduct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupRandomProduct.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupRandomProduct.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="backgroundWorker.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>120, 17</value>
+  </metadata>
+  <data name="lblRanking.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRanking.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRanking.Location" type="System.Drawing.Point, System.Drawing">
+    <value>418, 229</value>
+  </data>
+  <data name="lblRanking.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="lblRanking.TabIndex" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="&gt;&gt;lblRanking.Name" xml:space="preserve">
+    <value>lblRanking</value>
+  </data>
+  <data name="&gt;&gt;lblRanking.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRanking.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblRanking.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblPriceText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPriceText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPriceText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>377, 306</value>
+  </data>
+  <data name="lblPriceText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="lblPriceText.TabIndex" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="lblPriceText.Text" xml:space="preserve">
+    <value>Fiyat:</value>
+  </data>
+  <data name="&gt;&gt;lblPriceText.Name" xml:space="preserve">
+    <value>lblPriceText</value>
+  </data>
+  <data name="&gt;&gt;lblPriceText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPriceText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblPriceText.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblPrice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPrice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>415, 306</value>
+  </data>
+  <data name="lblPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="lblPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="&gt;&gt;lblPrice.Name" xml:space="preserve">
+    <value>lblPrice</value>
+  </data>
+  <data name="&gt;&gt;lblPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPrice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblPrice.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnAddToCart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAddToCart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>769, 155</value>
+  </data>
+  <data name="btnAddToCart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 200</value>
+  </data>
+  <data name="btnAddToCart.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="btnAddToCart.Text" xml:space="preserve">
+    <value>Sepete Ekle</value>
+  </data>
+  <data name="&gt;&gt;btnAddToCart.Name" xml:space="preserve">
+    <value>btnAddToCart</value>
+  </data>
+  <data name="&gt;&gt;btnAddToCart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddToCart.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAddToCart.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblSupplier.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSupplier.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSupplier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>634, 306</value>
+  </data>
+  <data name="lblSupplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="lblSupplier.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="lblSupplier.Text" xml:space="preserve">
+    <value>Satıcı:</value>
+  </data>
+  <data name="&gt;&gt;lblSupplier.Name" xml:space="preserve">
+    <value>lblSupplier</value>
+  </data>
+  <data name="&gt;&gt;lblSupplier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSupplier.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSupplier.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblRankingText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRankingText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRankingText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>377, 229</value>
+  </data>
+  <data name="lblRankingText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="lblRankingText.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="lblRankingText.Text" xml:space="preserve">
+    <value>Puan:</value>
+  </data>
+  <data name="&gt;&gt;lblRankingText.Name" xml:space="preserve">
+    <value>lblRankingText</value>
+  </data>
+  <data name="&gt;&gt;lblRankingText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRankingText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblRankingText.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>377, 155</value>
+  </data>
+  <data name="lblDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 65</value>
+  </data>
+  <data name="lblDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Name" xml:space="preserve">
+    <value>lblDescription</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="comboProducts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 106</value>
+  </data>
+  <data name="comboProducts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>653, 21</value>
+  </data>
+  <data name="comboProducts.TabIndex" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="&gt;&gt;comboProducts.Name" xml:space="preserve">
+    <value>comboProducts</value>
+  </data>
+  <data name="&gt;&gt;comboProducts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboProducts.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboProducts.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="pbLogo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pbLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="pbLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pbLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pbLogo.Name" xml:space="preserve">
+    <value>pbLogo</value>
+  </data>
+  <data name="&gt;&gt;pbLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbLogo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pbLogo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnRankFive.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnRankFive.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRankFive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>469, 245</value>
+  </data>
+  <data name="btnRankFive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnRankFive.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="&gt;&gt;btnRankFive.Name" xml:space="preserve">
+    <value>btnRankFive</value>
+  </data>
+  <data name="&gt;&gt;btnRankFive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRankFive.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRankFive.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnRankFour.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnRankFour.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRankFour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 245</value>
+  </data>
+  <data name="btnRankFour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnRankFour.TabIndex" type="System.Int32, mscorlib">
+    <value>146</value>
+  </data>
+  <data name="&gt;&gt;btnRankFour.Name" xml:space="preserve">
+    <value>btnRankFour</value>
+  </data>
+  <data name="&gt;&gt;btnRankFour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRankFour.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRankFour.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnRankThree.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnRankThree.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRankThree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 245</value>
+  </data>
+  <data name="btnRankThree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnRankThree.TabIndex" type="System.Int32, mscorlib">
+    <value>149</value>
+  </data>
+  <data name="&gt;&gt;btnRankThree.Name" xml:space="preserve">
+    <value>btnRankThree</value>
+  </data>
+  <data name="&gt;&gt;btnRankThree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRankThree.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRankThree.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnRankTwo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnRankTwo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRankTwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 245</value>
+  </data>
+  <data name="btnRankTwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnRankTwo.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="&gt;&gt;btnRankTwo.Name" xml:space="preserve">
+    <value>btnRankTwo</value>
+  </data>
+  <data name="&gt;&gt;btnRankTwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRankTwo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRankTwo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnRankOne.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnRankOne.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRankOne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>377, 245</value>
+  </data>
+  <data name="btnRankOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnRankOne.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="&gt;&gt;btnRankOne.Name" xml:space="preserve">
+    <value>btnRankOne</value>
+  </data>
+  <data name="&gt;&gt;btnRankOne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRankOne.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRankOne.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="pbSupplier.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbSupplier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>676, 305</value>
+  </data>
+  <data name="pbSupplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="pbSupplier.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pbSupplier.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="&gt;&gt;pbSupplier.Name" xml:space="preserve">
+    <value>pbSupplier</value>
+  </data>
+  <data name="&gt;&gt;pbSupplier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbSupplier.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pbSupplier.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="pbProduct.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 155</value>
+  </data>
+  <data name="pbProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 200</value>
+  </data>
+  <data name="pbProduct.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pbProduct.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="&gt;&gt;pbProduct.Name" xml:space="preserve">
+    <value>pbProduct</value>
+  </data>
+  <data name="&gt;&gt;pbProduct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbProduct.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pbProduct.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>59</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1034, 461</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Ana Menü</value>
+  </data>
+  <data name="&gt;&gt;topMenuAccount.Name" xml:space="preserve">
+    <value>topMenuAccount</value>
+  </data>
+  <data name="&gt;&gt;topMenuAccount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;topMenuProduct.Name" xml:space="preserve">
+    <value>topMenuProduct</value>
+  </data>
+  <data name="&gt;&gt;topMenuProduct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;topMenuAddProduct.Name" xml:space="preserve">
+    <value>topMenuAddProduct</value>
+  </data>
+  <data name="&gt;&gt;topMenuAddProduct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;topMenuProducts.Name" xml:space="preserve">
+    <value>topMenuProducts</value>
+  </data>
+  <data name="&gt;&gt;topMenuProducts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;topMenuCart.Name" xml:space="preserve">
+    <value>topMenuCart</value>
+  </data>
+  <data name="&gt;&gt;topMenuCart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;topMenuBook.Name" xml:space="preserve">
+    <value>topMenuBook</value>
+  </data>
+  <data name="&gt;&gt;topMenuBook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;topMenuDecoration.Name" xml:space="preserve">
+    <value>topMenuDecoration</value>
+  </data>
+  <data name="&gt;&gt;topMenuDecoration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;topMenuFurniture.Name" xml:space="preserve">
+    <value>topMenuFurniture</value>
+  </data>
+  <data name="&gt;&gt;topMenuFurniture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;topMenuElectronic.Name" xml:space="preserve">
+    <value>topMenuElectronic</value>
+  </data>
+  <data name="&gt;&gt;topMenuElectronic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;topMenuSport.Name" xml:space="preserve">
+    <value>topMenuSport</value>
+  </data>
+  <data name="&gt;&gt;topMenuSport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;topMenuCosmetic.Name" xml:space="preserve">
+    <value>topMenuCosmetic</value>
+  </data>
+  <data name="&gt;&gt;topMenuCosmetic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;topMenuBag.Name" xml:space="preserve">
+    <value>topMenuBag</value>
+  </data>
+  <data name="&gt;&gt;topMenuBag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;topMenuShoes.Name" xml:space="preserve">
+    <value>topMenuShoes</value>
+  </data>
+  <data name="&gt;&gt;topMenuShoes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;topMenuClothes.Name" xml:space="preserve">
+    <value>topMenuClothes</value>
+  </data>
+  <data name="&gt;&gt;topMenuClothes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker.Name" xml:space="preserve">
+    <value>backgroundWorker</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainMenu</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

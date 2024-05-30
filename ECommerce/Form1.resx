@@ -1,0 +1,2752 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnBackToSupplierRegister.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnBackToSupplierRegister.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        cAAAAHABznhikwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAACFSURBVDhPpZPL
+        DYAwDEMzCFuwGVNw48R0XNgkOBVBSUk/UEtPwm4cCVCJmbuAVnCC2eXWlIA2IA/C7s6sicjKB5jcuTU5
+        ULWcZvJAgZrlNBeGnWXhHXwoC94QLXexqyx4M7ogBSOv8IQjH1GB/v9GBWoucSYCqi5xwyUgu+TbZVKg
+        4DozXRY3U23RYM/TAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnBackToSupplierRegister.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 238</value>
+  </data>
+  <data name="btnBackToSupplierRegister.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnBackToSupplierRegister.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btnBackToSupplierRegister.Name" xml:space="preserve">
+    <value>btnBackToSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;btnBackToSupplierRegister.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBackToSupplierRegister.Parent" xml:space="preserve">
+    <value>groupSupplierLogin</value>
+  </data>
+  <data name="&gt;&gt;btnBackToSupplierRegister.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSupplierSeekPassword.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSupplierSeekPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 231</value>
+  </data>
+  <data name="btnSupplierSeekPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="btnSupplierSeekPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnSupplierSeekPassword.Name" xml:space="preserve">
+    <value>btnSupplierSeekPassword</value>
+  </data>
+  <data name="&gt;&gt;btnSupplierSeekPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSupplierSeekPassword.Parent" xml:space="preserve">
+    <value>groupSupplierLogin</value>
+  </data>
+  <data name="&gt;&gt;btnSupplierSeekPassword.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnSupplierSeePassword.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSupplierSeePassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 232</value>
+  </data>
+  <data name="btnSupplierSeePassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="btnSupplierSeePassword.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnSupplierSeePassword.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnSupplierSeePassword.Name" xml:space="preserve">
+    <value>btnSupplierSeePassword</value>
+  </data>
+  <data name="&gt;&gt;btnSupplierSeePassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSupplierSeePassword.Parent" xml:space="preserve">
+    <value>groupSupplierLogin</value>
+  </data>
+  <data name="&gt;&gt;btnSupplierSeePassword.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnLoginSupplierAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 271</value>
+  </data>
+  <data name="btnLoginSupplierAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 23</value>
+  </data>
+  <data name="btnLoginSupplierAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnLoginSupplierAccount.Text" xml:space="preserve">
+    <value>Satıcı Hesabına Giriş Yap</value>
+  </data>
+  <data name="&gt;&gt;btnLoginSupplierAccount.Name" xml:space="preserve">
+    <value>btnLoginSupplierAccount</value>
+  </data>
+  <data name="&gt;&gt;btnLoginSupplierAccount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLoginSupplierAccount.Parent" xml:space="preserve">
+    <value>groupSupplierLogin</value>
+  </data>
+  <data name="&gt;&gt;btnLoginSupplierAccount.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtSupplierLoginPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 231</value>
+  </data>
+  <data name="txtSupplierLoginPassword.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txtSupplierLoginPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="txtSupplierLoginPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierLoginPassword.Name" xml:space="preserve">
+    <value>txtSupplierLoginPassword</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierLoginPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierLoginPassword.Parent" xml:space="preserve">
+    <value>groupSupplierLogin</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierLoginPassword.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtSuppierLoginEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 205</value>
+  </data>
+  <data name="txtSuppierLoginEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtSuppierLoginEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtSuppierLoginEmail.Name" xml:space="preserve">
+    <value>txtSuppierLoginEmail</value>
+  </data>
+  <data name="&gt;&gt;txtSuppierLoginEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSuppierLoginEmail.Parent" xml:space="preserve">
+    <value>groupSupplierLogin</value>
+  </data>
+  <data name="&gt;&gt;txtSuppierLoginEmail.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblSupplierLoginPassword.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSupplierLoginPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 234</value>
+  </data>
+  <data name="lblSupplierLoginPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="lblSupplierLoginPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblSupplierLoginPassword.Text" xml:space="preserve">
+    <value>Satıcı Şifresi:</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierLoginPassword.Name" xml:space="preserve">
+    <value>lblSupplierLoginPassword</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierLoginPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierLoginPassword.Parent" xml:space="preserve">
+    <value>groupSupplierLogin</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierLoginPassword.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblSupplierLoginEmail.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSupplierLoginEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 208</value>
+  </data>
+  <data name="lblSupplierLoginEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="lblSupplierLoginEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblSupplierLoginEmail.Text" xml:space="preserve">
+    <value>Satıcı Emaili:</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierLoginEmail.Name" xml:space="preserve">
+    <value>lblSupplierLoginEmail</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierLoginEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierLoginEmail.Parent" xml:space="preserve">
+    <value>groupSupplierLogin</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierLoginEmail.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="groupSupplierLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="groupSupplierLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>649, 498</value>
+  </data>
+  <data name="groupSupplierLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="groupSupplierLogin.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;groupSupplierLogin.Name" xml:space="preserve">
+    <value>groupSupplierLogin</value>
+  </data>
+  <data name="&gt;&gt;groupSupplierLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupSupplierLogin.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;groupSupplierLogin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSupplierLoginScreen.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSupplierLoginScreen.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6.25pt</value>
+  </data>
+  <data name="btnSupplierLoginScreen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 453</value>
+  </data>
+  <data name="btnSupplierLoginScreen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 23</value>
+  </data>
+  <data name="btnSupplierLoginScreen.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="btnSupplierLoginScreen.Text" xml:space="preserve">
+    <value>Satıcı hesabınıza giriş yapın.</value>
+  </data>
+  <data name="&gt;&gt;btnSupplierLoginScreen.Name" xml:space="preserve">
+    <value>btnSupplierLoginScreen</value>
+  </data>
+  <data name="&gt;&gt;btnSupplierLoginScreen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSupplierLoginScreen.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;btnSupplierLoginScreen.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnRegisterAsSupplier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 431</value>
+  </data>
+  <data name="btnRegisterAsSupplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="btnRegisterAsSupplier.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="btnRegisterAsSupplier.Text" xml:space="preserve">
+    <value>Satıcı Olarak Kaydol</value>
+  </data>
+  <data name="&gt;&gt;btnRegisterAsSupplier.Name" xml:space="preserve">
+    <value>btnRegisterAsSupplier</value>
+  </data>
+  <data name="&gt;&gt;btnRegisterAsSupplier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRegisterAsSupplier.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;btnRegisterAsSupplier.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnUploadPhoto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 393</value>
+  </data>
+  <data name="btnUploadPhoto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="btnUploadPhoto.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="btnUploadPhoto.Text" xml:space="preserve">
+    <value>Fotoğraf Yükle</value>
+  </data>
+  <data name="&gt;&gt;btnUploadPhoto.Name" xml:space="preserve">
+    <value>btnUploadPhoto</value>
+  </data>
+  <data name="&gt;&gt;btnUploadPhoto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnUploadPhoto.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;btnUploadPhoto.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pbSupplierLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 289</value>
+  </data>
+  <data name="pbSupplierLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="pbSupplierLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pbSupplierLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;pbSupplierLogo.Name" xml:space="preserve">
+    <value>pbSupplierLogo</value>
+  </data>
+  <data name="&gt;&gt;pbSupplierLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbSupplierLogo.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;pbSupplierLogo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="comboPaymentMethod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 262</value>
+  </data>
+  <data name="comboPaymentMethod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <data name="comboPaymentMethod.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;comboPaymentMethod.Name" xml:space="preserve">
+    <value>comboPaymentMethod</value>
+  </data>
+  <data name="&gt;&gt;comboPaymentMethod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboPaymentMethod.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;comboPaymentMethod.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtSupplierAdress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 158</value>
+  </data>
+  <data name="txtSupplierAdress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 96</value>
+  </data>
+  <data name="txtSupplierAdress.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="txtSupplierAdress.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtSupplierAdress.Name" xml:space="preserve">
+    <value>txtSupplierAdress</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierAdress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierAdress.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierAdress.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="comboSupplierRegion.Items" xml:space="preserve">
+    <value>Akyurt</value>
+  </data>
+  <data name="comboSupplierRegion.Items1" xml:space="preserve">
+    <value>Altındağ</value>
+  </data>
+  <data name="comboSupplierRegion.Items2" xml:space="preserve">
+    <value>Ayaş</value>
+  </data>
+  <data name="comboSupplierRegion.Items3" xml:space="preserve">
+    <value>Balâ</value>
+  </data>
+  <data name="comboSupplierRegion.Items4" xml:space="preserve">
+    <value>Beypazarı</value>
+  </data>
+  <data name="comboSupplierRegion.Items5" xml:space="preserve">
+    <value>Çamlıdere</value>
+  </data>
+  <data name="comboSupplierRegion.Items6" xml:space="preserve">
+    <value>Çankaya</value>
+  </data>
+  <data name="comboSupplierRegion.Items7" xml:space="preserve">
+    <value>Çubuk</value>
+  </data>
+  <data name="comboSupplierRegion.Items8" xml:space="preserve">
+    <value>Elmadağ</value>
+  </data>
+  <data name="comboSupplierRegion.Items9" xml:space="preserve">
+    <value>Etimesgut</value>
+  </data>
+  <data name="comboSupplierRegion.Items10" xml:space="preserve">
+    <value>Evren</value>
+  </data>
+  <data name="comboSupplierRegion.Items11" xml:space="preserve">
+    <value>Gölbaşı</value>
+  </data>
+  <data name="comboSupplierRegion.Items12" xml:space="preserve">
+    <value>Güdül</value>
+  </data>
+  <data name="comboSupplierRegion.Items13" xml:space="preserve">
+    <value>Haymana</value>
+  </data>
+  <data name="comboSupplierRegion.Items14" xml:space="preserve">
+    <value>Kahramankazan</value>
+  </data>
+  <data name="comboSupplierRegion.Items15" xml:space="preserve">
+    <value>Kalecik</value>
+  </data>
+  <data name="comboSupplierRegion.Items16" xml:space="preserve">
+    <value>Keçiören</value>
+  </data>
+  <data name="comboSupplierRegion.Items17" xml:space="preserve">
+    <value>Kızılcahamam</value>
+  </data>
+  <data name="comboSupplierRegion.Items18" xml:space="preserve">
+    <value>Mamak</value>
+  </data>
+  <data name="comboSupplierRegion.Items19" xml:space="preserve">
+    <value>Nallıhan</value>
+  </data>
+  <data name="comboSupplierRegion.Items20" xml:space="preserve">
+    <value>Polatlı</value>
+  </data>
+  <data name="comboSupplierRegion.Items21" xml:space="preserve">
+    <value>Pursaklar</value>
+  </data>
+  <data name="comboSupplierRegion.Items22" xml:space="preserve">
+    <value>Sincan</value>
+  </data>
+  <data name="comboSupplierRegion.Items23" xml:space="preserve">
+    <value>Şereflikoçhisar</value>
+  </data>
+  <data name="comboSupplierRegion.Items24" xml:space="preserve">
+    <value>Yenimahalle</value>
+  </data>
+  <data name="comboSupplierRegion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 394</value>
+  </data>
+  <data name="comboSupplierRegion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <data name="comboSupplierRegion.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;comboSupplierRegion.Name" xml:space="preserve">
+    <value>comboSupplierRegion</value>
+  </data>
+  <data name="&gt;&gt;comboSupplierRegion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboSupplierRegion.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;comboSupplierRegion.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="comboSupplierCity.Items" xml:space="preserve">
+    <value>Ankara</value>
+  </data>
+  <data name="comboSupplierCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 367</value>
+  </data>
+  <data name="comboSupplierCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <data name="comboSupplierCity.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;comboSupplierCity.Name" xml:space="preserve">
+    <value>comboSupplierCity</value>
+  </data>
+  <data name="&gt;&gt;comboSupplierCity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboSupplierCity.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;comboSupplierCity.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="comboSupplierCountry.Items" xml:space="preserve">
+    <value>Türkiye</value>
+  </data>
+  <data name="comboSupplierCountry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 340</value>
+  </data>
+  <data name="comboSupplierCountry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <data name="comboSupplierCountry.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;comboSupplierCountry.Name" xml:space="preserve">
+    <value>comboSupplierCountry</value>
+  </data>
+  <data name="&gt;&gt;comboSupplierCountry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboSupplierCountry.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;comboSupplierCountry.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtSupplierPasswordAgain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 314</value>
+  </data>
+  <data name="txtSupplierPasswordAgain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtSupplierPasswordAgain.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierPasswordAgain.Name" xml:space="preserve">
+    <value>txtSupplierPasswordAgain</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierPasswordAgain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierPasswordAgain.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierPasswordAgain.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblSupplierPasswordAgain.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSupplierPasswordAgain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 317</value>
+  </data>
+  <data name="lblSupplierPasswordAgain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="lblSupplierPasswordAgain.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblSupplierPasswordAgain.Text" xml:space="preserve">
+    <value>Tekrar Şifreniz:</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierPasswordAgain.Name" xml:space="preserve">
+    <value>lblSupplierPasswordAgain</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierPasswordAgain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierPasswordAgain.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierPasswordAgain.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtSupplierPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 288</value>
+  </data>
+  <data name="txtSupplierPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtSupplierPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierPassword.Name" xml:space="preserve">
+    <value>txtSupplierPassword</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierPassword.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierPassword.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtSupplierEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 262</value>
+  </data>
+  <data name="txtSupplierEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtSupplierEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierEmail.Name" xml:space="preserve">
+    <value>txtSupplierEmail</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierEmail.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierEmail.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="txtSupplierPhoneNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 236</value>
+  </data>
+  <data name="txtSupplierPhoneNumber.Mask" xml:space="preserve">
+    <value>(999) 000-0000</value>
+  </data>
+  <data name="txtSupplierPhoneNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtSupplierPhoneNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierPhoneNumber.Name" xml:space="preserve">
+    <value>txtSupplierPhoneNumber</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierPhoneNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierPhoneNumber.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;txtSupplierPhoneNumber.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="txtContactLastName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 210</value>
+  </data>
+  <data name="txtContactLastName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtContactLastName.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;txtContactLastName.Name" xml:space="preserve">
+    <value>txtContactLastName</value>
+  </data>
+  <data name="&gt;&gt;txtContactLastName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtContactLastName.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;txtContactLastName.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="txtContactFirstName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 184</value>
+  </data>
+  <data name="txtContactFirstName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtContactFirstName.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txtContactFirstName.Name" xml:space="preserve">
+    <value>txtContactFirstName</value>
+  </data>
+  <data name="&gt;&gt;txtContactFirstName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtContactFirstName.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;txtContactFirstName.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="txtCompanyName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 158</value>
+  </data>
+  <data name="txtCompanyName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtCompanyName.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txtCompanyName.Name" xml:space="preserve">
+    <value>txtCompanyName</value>
+  </data>
+  <data name="&gt;&gt;txtCompanyName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCompanyName.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;txtCompanyName.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblLogo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 291</value>
+  </data>
+  <data name="lblLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lblLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblLogo.Text" xml:space="preserve">
+    <value>Logonuz:</value>
+  </data>
+  <data name="&gt;&gt;lblLogo.Name" xml:space="preserve">
+    <value>lblLogo</value>
+  </data>
+  <data name="&gt;&gt;lblLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLogo.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;lblLogo.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblPaymentMethod.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPaymentMethod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 265</value>
+  </data>
+  <data name="lblPaymentMethod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <data name="lblPaymentMethod.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblPaymentMethod.Text" xml:space="preserve">
+    <value>Ödeme Seçenekleri:</value>
+  </data>
+  <data name="&gt;&gt;lblPaymentMethod.Name" xml:space="preserve">
+    <value>lblPaymentMethod</value>
+  </data>
+  <data name="&gt;&gt;lblPaymentMethod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPaymentMethod.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;lblPaymentMethod.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblSupplierAdress.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSupplierAdress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 161</value>
+  </data>
+  <data name="lblSupplierAdress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="lblSupplierAdress.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblSupplierAdress.Text" xml:space="preserve">
+    <value>Adresiniz:</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierAdress.Name" xml:space="preserve">
+    <value>lblSupplierAdress</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierAdress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierAdress.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierAdress.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lblSupplierRegion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSupplierRegion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 398</value>
+  </data>
+  <data name="lblSupplierRegion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lblSupplierRegion.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblSupplierRegion.Text" xml:space="preserve">
+    <value>İlçeniz:</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierRegion.Name" xml:space="preserve">
+    <value>lblSupplierRegion</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierRegion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierRegion.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierRegion.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lblSupplierCity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSupplierCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 371</value>
+  </data>
+  <data name="lblSupplierCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="lblSupplierCity.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblSupplierCity.Text" xml:space="preserve">
+    <value>İliniz:</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierCity.Name" xml:space="preserve">
+    <value>lblSupplierCity</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierCity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierCity.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierCity.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="lblSupplierCountry.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSupplierCountry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 343</value>
+  </data>
+  <data name="lblSupplierCountry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="lblSupplierCountry.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblSupplierCountry.Text" xml:space="preserve">
+    <value>Ülkeniz:</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierCountry.Name" xml:space="preserve">
+    <value>lblSupplierCountry</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierCountry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierCountry.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierCountry.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="lblSupplierPassword.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSupplierPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 291</value>
+  </data>
+  <data name="lblSupplierPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="lblSupplierPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblSupplierPassword.Text" xml:space="preserve">
+    <value>Şifreniz:</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierPassword.Name" xml:space="preserve">
+    <value>lblSupplierPassword</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierPassword.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierPassword.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="lblSupplierEmail.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSupplierEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 265</value>
+  </data>
+  <data name="lblSupplierEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="lblSupplierEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblSupplierEmail.Text" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierEmail.Name" xml:space="preserve">
+    <value>lblSupplierEmail</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierEmail.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierEmail.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="lblSupplierPhoneNumber.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSupplierPhoneNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 239</value>
+  </data>
+  <data name="lblSupplierPhoneNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 13</value>
+  </data>
+  <data name="lblSupplierPhoneNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblSupplierPhoneNumber.Text" xml:space="preserve">
+    <value>Telefon Numarası:</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierPhoneNumber.Name" xml:space="preserve">
+    <value>lblSupplierPhoneNumber</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierPhoneNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierPhoneNumber.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;lblSupplierPhoneNumber.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="lblContactLastName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblContactLastName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 212</value>
+  </data>
+  <data name="lblContactLastName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="lblContactLastName.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblContactLastName.Text" xml:space="preserve">
+    <value>İletişim Soyadınız:</value>
+  </data>
+  <data name="&gt;&gt;lblContactLastName.Name" xml:space="preserve">
+    <value>lblContactLastName</value>
+  </data>
+  <data name="&gt;&gt;lblContactLastName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblContactLastName.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;lblContactLastName.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="lblContactFirstName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblContactFirstName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 187</value>
+  </data>
+  <data name="lblContactFirstName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="lblContactFirstName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblContactFirstName.Text" xml:space="preserve">
+    <value>İletişim Adınız:</value>
+  </data>
+  <data name="&gt;&gt;lblContactFirstName.Name" xml:space="preserve">
+    <value>lblContactFirstName</value>
+  </data>
+  <data name="&gt;&gt;lblContactFirstName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblContactFirstName.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;lblContactFirstName.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="lblCompanyName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCompanyName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 161</value>
+  </data>
+  <data name="lblCompanyName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="lblCompanyName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblCompanyName.Text" xml:space="preserve">
+    <value>Şirketi İsmi:</value>
+  </data>
+  <data name="&gt;&gt;lblCompanyName.Name" xml:space="preserve">
+    <value>lblCompanyName</value>
+  </data>
+  <data name="&gt;&gt;lblCompanyName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCompanyName.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;lblCompanyName.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="btnGoToSupplierLogin.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnGoToSupplierLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 238</value>
+  </data>
+  <data name="btnGoToSupplierLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="btnGoToSupplierLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;btnGoToSupplierLogin.Name" xml:space="preserve">
+    <value>btnGoToSupplierLogin</value>
+  </data>
+  <data name="&gt;&gt;btnGoToSupplierLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGoToSupplierLogin.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;btnGoToSupplierLogin.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="btnBackToLogin.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnBackToLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 238</value>
+  </data>
+  <data name="btnBackToLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="btnBackToLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;btnBackToLogin.Name" xml:space="preserve">
+    <value>btnBackToLogin</value>
+  </data>
+  <data name="&gt;&gt;btnBackToLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBackToLogin.Parent" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;btnBackToLogin.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="groupSupplierRegister.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="groupSupplierRegister.Size" type="System.Drawing.Size, System.Drawing">
+    <value>648, 498</value>
+  </data>
+  <data name="groupSupplierRegister.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="groupSupplierRegister.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;groupSupplierRegister.Name" xml:space="preserve">
+    <value>groupSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;groupSupplierRegister.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupSupplierRegister.Parent" xml:space="preserve">
+    <value>groupLogin</value>
+  </data>
+  <data name="&gt;&gt;groupSupplierRegister.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSupplierScreen.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSupplierScreen.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6.25pt</value>
+  </data>
+  <data name="btnSupplierScreen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 297</value>
+  </data>
+  <data name="btnSupplierScreen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 23</value>
+  </data>
+  <data name="btnSupplierScreen.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnSupplierScreen.Text" xml:space="preserve">
+    <value>Satıcı mısınız? Satıcı hesabınıza giriş yapın.</value>
+  </data>
+  <data name="&gt;&gt;btnSupplierScreen.Name" xml:space="preserve">
+    <value>btnSupplierScreen</value>
+  </data>
+  <data name="&gt;&gt;btnSupplierScreen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSupplierScreen.Parent" xml:space="preserve">
+    <value>groupLogin</value>
+  </data>
+  <data name="&gt;&gt;btnSupplierScreen.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnSeekPassword.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSeekPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 205</value>
+  </data>
+  <data name="btnSeekPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="btnSeekPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnSeekPassword.Name" xml:space="preserve">
+    <value>btnSeekPassword</value>
+  </data>
+  <data name="&gt;&gt;btnSeekPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSeekPassword.Parent" xml:space="preserve">
+    <value>groupLogin</value>
+  </data>
+  <data name="&gt;&gt;btnSeekPassword.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnSeePassword.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSeePassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 205</value>
+  </data>
+  <data name="btnSeePassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="btnSeePassword.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnSeePassword.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnSeePassword.Name" xml:space="preserve">
+    <value>btnSeePassword</value>
+  </data>
+  <data name="&gt;&gt;btnSeePassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSeePassword.Parent" xml:space="preserve">
+    <value>groupLogin</value>
+  </data>
+  <data name="&gt;&gt;btnSeePassword.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnRegisterScreen.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnRegisterScreen.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6.25pt</value>
+  </data>
+  <data name="btnRegisterScreen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 271</value>
+  </data>
+  <data name="btnRegisterScreen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 23</value>
+  </data>
+  <data name="btnRegisterScreen.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnRegisterScreen.Text" xml:space="preserve">
+    <value>Üye değil misiniz? Hemen üye olun.</value>
+  </data>
+  <data name="&gt;&gt;btnRegisterScreen.Name" xml:space="preserve">
+    <value>btnRegisterScreen</value>
+  </data>
+  <data name="&gt;&gt;btnRegisterScreen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRegisterScreen.Parent" xml:space="preserve">
+    <value>groupLogin</value>
+  </data>
+  <data name="&gt;&gt;btnRegisterScreen.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 249</value>
+  </data>
+  <data name="btnLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 23</value>
+  </data>
+  <data name="btnLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnLogin.Text" xml:space="preserve">
+    <value>Giriş Yap</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.Name" xml:space="preserve">
+    <value>btnLogin</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.Parent" xml:space="preserve">
+    <value>groupLogin</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtLoginPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 205</value>
+  </data>
+  <data name="txtLoginPassword.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txtLoginPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 20</value>
+  </data>
+  <data name="txtLoginPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtLoginPassword.Name" xml:space="preserve">
+    <value>txtLoginPassword</value>
+  </data>
+  <data name="&gt;&gt;txtLoginPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtLoginPassword.Parent" xml:space="preserve">
+    <value>groupLogin</value>
+  </data>
+  <data name="&gt;&gt;txtLoginPassword.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtLoginNickname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 179</value>
+  </data>
+  <data name="txtLoginNickname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtLoginNickname.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtLoginNickname.Name" xml:space="preserve">
+    <value>txtLoginNickname</value>
+  </data>
+  <data name="&gt;&gt;txtLoginNickname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtLoginNickname.Parent" xml:space="preserve">
+    <value>groupLogin</value>
+  </data>
+  <data name="&gt;&gt;txtLoginNickname.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblLoginPassword.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLoginPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 208</value>
+  </data>
+  <data name="lblLoginPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="lblLoginPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblLoginPassword.Text" xml:space="preserve">
+    <value>Şifreniz:</value>
+  </data>
+  <data name="&gt;&gt;lblLoginPassword.Name" xml:space="preserve">
+    <value>lblLoginPassword</value>
+  </data>
+  <data name="&gt;&gt;lblLoginPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLoginPassword.Parent" xml:space="preserve">
+    <value>groupLogin</value>
+  </data>
+  <data name="&gt;&gt;lblLoginPassword.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblLoginNickname.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLoginNickname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 182</value>
+  </data>
+  <data name="lblLoginNickname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="lblLoginNickname.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblLoginNickname.Text" xml:space="preserve">
+    <value>Kullanıcı Adınız:</value>
+  </data>
+  <data name="&gt;&gt;lblLoginNickname.Name" xml:space="preserve">
+    <value>lblLoginNickname</value>
+  </data>
+  <data name="&gt;&gt;lblLoginNickname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLoginNickname.Parent" xml:space="preserve">
+    <value>groupLogin</value>
+  </data>
+  <data name="&gt;&gt;lblLoginNickname.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnBackToRegister.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnBackToRegister.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 238</value>
+  </data>
+  <data name="btnBackToRegister.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="btnBackToRegister.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;btnBackToRegister.Name" xml:space="preserve">
+    <value>btnBackToRegister</value>
+  </data>
+  <data name="&gt;&gt;btnBackToRegister.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBackToRegister.Parent" xml:space="preserve">
+    <value>groupLogin</value>
+  </data>
+  <data name="&gt;&gt;btnBackToRegister.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnGoToSupplierRegister.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnGoToSupplierRegister.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 238</value>
+  </data>
+  <data name="btnGoToSupplierRegister.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="btnGoToSupplierRegister.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;btnGoToSupplierRegister.Name" xml:space="preserve">
+    <value>btnGoToSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;btnGoToSupplierRegister.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGoToSupplierRegister.Parent" xml:space="preserve">
+    <value>groupLogin</value>
+  </data>
+  <data name="&gt;&gt;btnGoToSupplierRegister.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="groupLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1</value>
+  </data>
+  <data name="groupLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>648, 498</value>
+  </data>
+  <data name="groupLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="&gt;&gt;groupLogin.Name" xml:space="preserve">
+    <value>groupLogin</value>
+  </data>
+  <data name="&gt;&gt;groupLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupLogin.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;groupLogin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblExpDateSorter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblExpDateSorter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 344</value>
+  </data>
+  <data name="lblExpDateSorter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 13</value>
+  </data>
+  <data name="lblExpDateSorter.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="lblExpDateSorter.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="&gt;&gt;lblExpDateSorter.Name" xml:space="preserve">
+    <value>lblExpDateSorter</value>
+  </data>
+  <data name="&gt;&gt;lblExpDateSorter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblExpDateSorter.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;lblExpDateSorter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboYear.Items" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="comboYear.Items1" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="comboYear.Items2" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="comboYear.Items3" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="comboYear.Items4" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="comboYear.Items5" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="comboYear.Items6" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="comboYear.Items7" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="comboYear.Items8" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="comboYear.Items9" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="comboYear.Items10" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="comboYear.Items11" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="comboYear.Items12" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="comboYear.Items13" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="comboYear.Items14" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="comboYear.Items15" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="comboYear.Items16" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="comboYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>510, 340</value>
+  </data>
+  <data name="comboYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="comboYear.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="&gt;&gt;comboYear.Name" xml:space="preserve">
+    <value>comboYear</value>
+  </data>
+  <data name="&gt;&gt;comboYear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboYear.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;comboYear.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="comboMonth.Items" xml:space="preserve">
+    <value>01</value>
+  </data>
+  <data name="comboMonth.Items1" xml:space="preserve">
+    <value>02</value>
+  </data>
+  <data name="comboMonth.Items2" xml:space="preserve">
+    <value>03</value>
+  </data>
+  <data name="comboMonth.Items3" xml:space="preserve">
+    <value>04</value>
+  </data>
+  <data name="comboMonth.Items4" xml:space="preserve">
+    <value>05</value>
+  </data>
+  <data name="comboMonth.Items5" xml:space="preserve">
+    <value>06</value>
+  </data>
+  <data name="comboMonth.Items6" xml:space="preserve">
+    <value>07</value>
+  </data>
+  <data name="comboMonth.Items7" xml:space="preserve">
+    <value>08</value>
+  </data>
+  <data name="comboMonth.Items8" xml:space="preserve">
+    <value>09</value>
+  </data>
+  <data name="comboMonth.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="comboMonth.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="comboMonth.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="comboMonth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 340</value>
+  </data>
+  <data name="comboMonth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="comboMonth.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="&gt;&gt;comboMonth.Name" xml:space="preserve">
+    <value>comboMonth</value>
+  </data>
+  <data name="&gt;&gt;comboMonth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboMonth.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;comboMonth.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblCreditCardExpDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCreditCardExpDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 344</value>
+  </data>
+  <data name="lblCreditCardExpDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="lblCreditCardExpDate.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="lblCreditCardExpDate.Text" xml:space="preserve">
+    <value>Kredi Kartı SKT:</value>
+  </data>
+  <data name="&gt;&gt;lblCreditCardExpDate.Name" xml:space="preserve">
+    <value>lblCreditCardExpDate</value>
+  </data>
+  <data name="&gt;&gt;lblCreditCardExpDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCreditCardExpDate.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;lblCreditCardExpDate.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnLoginScreen.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnLoginScreen.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6.75pt</value>
+  </data>
+  <data name="btnLoginScreen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 415</value>
+  </data>
+  <data name="btnLoginScreen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 22</value>
+  </data>
+  <data name="btnLoginScreen.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="btnLoginScreen.Text" xml:space="preserve">
+    <value>Üye misiniz? Hesabınıza giriş yapın.</value>
+  </data>
+  <data name="&gt;&gt;btnLoginScreen.Name" xml:space="preserve">
+    <value>btnLoginScreen</value>
+  </data>
+  <data name="&gt;&gt;btnLoginScreen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLoginScreen.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;btnLoginScreen.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtFirstName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 154</value>
+  </data>
+  <data name="txtFirstName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 20</value>
+  </data>
+  <data name="txtFirstName.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;txtFirstName.Name" xml:space="preserve">
+    <value>txtFirstName</value>
+  </data>
+  <data name="&gt;&gt;txtFirstName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtFirstName.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;txtFirstName.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnRegister.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 393</value>
+  </data>
+  <data name="btnRegister.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 23</value>
+  </data>
+  <data name="btnRegister.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="btnRegister.Text" xml:space="preserve">
+    <value>Kayıt Ol</value>
+  </data>
+  <data name="&gt;&gt;btnRegister.Name" xml:space="preserve">
+    <value>btnRegister</value>
+  </data>
+  <data name="&gt;&gt;btnRegister.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRegister.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;btnRegister.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtCreditCardCVV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 367</value>
+  </data>
+  <data name="txtCreditCardCVV.Mask" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="txtCreditCardCVV.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 20</value>
+  </data>
+  <data name="txtCreditCardCVV.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;txtCreditCardCVV.Name" xml:space="preserve">
+    <value>txtCreditCardCVV</value>
+  </data>
+  <data name="&gt;&gt;txtCreditCardCVV.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCreditCardCVV.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;txtCreditCardCVV.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="comboCreditCardType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 313</value>
+  </data>
+  <data name="comboCreditCardType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 21</value>
+  </data>
+  <data name="comboCreditCardType.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;comboCreditCardType.Name" xml:space="preserve">
+    <value>comboCreditCardType</value>
+  </data>
+  <data name="&gt;&gt;comboCreditCardType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboCreditCardType.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;comboCreditCardType.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtCreditCardNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 287</value>
+  </data>
+  <data name="txtCreditCardNumber.Mask" xml:space="preserve">
+    <value>0000-0000-0000-0000</value>
+  </data>
+  <data name="txtCreditCardNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="txtCreditCardNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;txtCreditCardNumber.Name" xml:space="preserve">
+    <value>txtCreditCardNumber</value>
+  </data>
+  <data name="&gt;&gt;txtCreditCardNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCreditCardNumber.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;txtCreditCardNumber.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtAdress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 181</value>
+  </data>
+  <data name="txtAdress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 100</value>
+  </data>
+  <data name="txtAdress.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="txtAdress.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtAdress.Name" xml:space="preserve">
+    <value>txtAdress</value>
+  </data>
+  <data name="&gt;&gt;txtAdress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtAdress.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;txtAdress.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="comboRegion.Items" xml:space="preserve">
+    <value>Akyurt</value>
+  </data>
+  <data name="comboRegion.Items1" xml:space="preserve">
+    <value>Altındağ</value>
+  </data>
+  <data name="comboRegion.Items2" xml:space="preserve">
+    <value>Ayaş</value>
+  </data>
+  <data name="comboRegion.Items3" xml:space="preserve">
+    <value>Balâ</value>
+  </data>
+  <data name="comboRegion.Items4" xml:space="preserve">
+    <value>Beypazarı</value>
+  </data>
+  <data name="comboRegion.Items5" xml:space="preserve">
+    <value>Çamlıdere</value>
+  </data>
+  <data name="comboRegion.Items6" xml:space="preserve">
+    <value>Çankaya</value>
+  </data>
+  <data name="comboRegion.Items7" xml:space="preserve">
+    <value>Çubuk</value>
+  </data>
+  <data name="comboRegion.Items8" xml:space="preserve">
+    <value>Elmadağ</value>
+  </data>
+  <data name="comboRegion.Items9" xml:space="preserve">
+    <value>Etimesgut</value>
+  </data>
+  <data name="comboRegion.Items10" xml:space="preserve">
+    <value>Evren</value>
+  </data>
+  <data name="comboRegion.Items11" xml:space="preserve">
+    <value>Gölbaşı</value>
+  </data>
+  <data name="comboRegion.Items12" xml:space="preserve">
+    <value>Güdül</value>
+  </data>
+  <data name="comboRegion.Items13" xml:space="preserve">
+    <value>Haymana</value>
+  </data>
+  <data name="comboRegion.Items14" xml:space="preserve">
+    <value>Kahramankazan</value>
+  </data>
+  <data name="comboRegion.Items15" xml:space="preserve">
+    <value>Kalecik</value>
+  </data>
+  <data name="comboRegion.Items16" xml:space="preserve">
+    <value>Keçiören</value>
+  </data>
+  <data name="comboRegion.Items17" xml:space="preserve">
+    <value>Kızılcahamam</value>
+  </data>
+  <data name="comboRegion.Items18" xml:space="preserve">
+    <value>Mamak</value>
+  </data>
+  <data name="comboRegion.Items19" xml:space="preserve">
+    <value>Nallıhan</value>
+  </data>
+  <data name="comboRegion.Items20" xml:space="preserve">
+    <value>Polatlı</value>
+  </data>
+  <data name="comboRegion.Items21" xml:space="preserve">
+    <value>Pursaklar</value>
+  </data>
+  <data name="comboRegion.Items22" xml:space="preserve">
+    <value>Sincan</value>
+  </data>
+  <data name="comboRegion.Items23" xml:space="preserve">
+    <value>Şereflikoçhisar </value>
+  </data>
+  <data name="comboRegion.Items24" xml:space="preserve">
+    <value>Yenimahalle</value>
+  </data>
+  <data name="comboRegion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 154</value>
+  </data>
+  <data name="comboRegion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 21</value>
+  </data>
+  <data name="comboRegion.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;comboRegion.Name" xml:space="preserve">
+    <value>comboRegion</value>
+  </data>
+  <data name="&gt;&gt;comboRegion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboRegion.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;comboRegion.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="comboCity.Items" xml:space="preserve">
+    <value>Ankara</value>
+  </data>
+  <data name="comboCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 416</value>
+  </data>
+  <data name="comboCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 21</value>
+  </data>
+  <data name="comboCity.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;comboCity.Name" xml:space="preserve">
+    <value>comboCity</value>
+  </data>
+  <data name="&gt;&gt;comboCity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboCity.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;comboCity.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="comboCountry.Items" xml:space="preserve">
+    <value>Türkiye</value>
+  </data>
+  <data name="comboCountry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 389</value>
+  </data>
+  <data name="comboCountry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 21</value>
+  </data>
+  <data name="comboCountry.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;comboCountry.Name" xml:space="preserve">
+    <value>comboCountry</value>
+  </data>
+  <data name="&gt;&gt;comboCountry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboCountry.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;comboCountry.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="dateBirthDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 363</value>
+  </data>
+  <data name="dateBirthDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 20</value>
+  </data>
+  <data name="dateBirthDate.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;dateBirthDate.Name" xml:space="preserve">
+    <value>dateBirthDate</value>
+  </data>
+  <data name="&gt;&gt;dateBirthDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateBirthDate.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;dateBirthDate.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="comboGender.Items" xml:space="preserve">
+    <value>Erkek</value>
+  </data>
+  <data name="comboGender.Items1" xml:space="preserve">
+    <value>Kız</value>
+  </data>
+  <data name="comboGender.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 336</value>
+  </data>
+  <data name="comboGender.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 21</value>
+  </data>
+  <data name="comboGender.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;comboGender.Name" xml:space="preserve">
+    <value>comboGender</value>
+  </data>
+  <data name="&gt;&gt;comboGender.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboGender.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;comboGender.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="txtPhoneNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 310</value>
+  </data>
+  <data name="txtPhoneNumber.Mask" xml:space="preserve">
+    <value>(999) 000-0000</value>
+  </data>
+  <data name="txtPhoneNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 20</value>
+  </data>
+  <data name="txtPhoneNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;txtPhoneNumber.Name" xml:space="preserve">
+    <value>txtPhoneNumber</value>
+  </data>
+  <data name="&gt;&gt;txtPhoneNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPhoneNumber.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;txtPhoneNumber.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="txtPasswordAgain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 284</value>
+  </data>
+  <data name="txtPasswordAgain.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txtPasswordAgain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 20</value>
+  </data>
+  <data name="txtPasswordAgain.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;txtPasswordAgain.Name" xml:space="preserve">
+    <value>txtPasswordAgain</value>
+  </data>
+  <data name="&gt;&gt;txtPasswordAgain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPasswordAgain.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;txtPasswordAgain.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="txtPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 258</value>
+  </data>
+  <data name="txtPassword.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txtPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 20</value>
+  </data>
+  <data name="txtPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.Name" xml:space="preserve">
+    <value>txtPassword</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="txtEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 232</value>
+  </data>
+  <data name="txtEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 20</value>
+  </data>
+  <data name="txtEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;txtEmail.Name" xml:space="preserve">
+    <value>txtEmail</value>
+  </data>
+  <data name="&gt;&gt;txtEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtEmail.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;txtEmail.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="txtNickname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 206</value>
+  </data>
+  <data name="txtNickname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 20</value>
+  </data>
+  <data name="txtNickname.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;txtNickname.Name" xml:space="preserve">
+    <value>txtNickname</value>
+  </data>
+  <data name="&gt;&gt;txtNickname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNickname.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;txtNickname.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="txtLastName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 180</value>
+  </data>
+  <data name="txtLastName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 20</value>
+  </data>
+  <data name="txtLastName.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;txtLastName.Name" xml:space="preserve">
+    <value>txtLastName</value>
+  </data>
+  <data name="&gt;&gt;txtLastName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtLastName.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;txtLastName.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="lblPasswordAgain.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPasswordAgain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 287</value>
+  </data>
+  <data name="lblPasswordAgain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="lblPasswordAgain.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="lblPasswordAgain.Text" xml:space="preserve">
+    <value>Tekrar Şifreniz:</value>
+  </data>
+  <data name="&gt;&gt;lblPasswordAgain.Name" xml:space="preserve">
+    <value>lblPasswordAgain</value>
+  </data>
+  <data name="&gt;&gt;lblPasswordAgain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPasswordAgain.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;lblPasswordAgain.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="lblCreditCardCVV.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCreditCardCVV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 371</value>
+  </data>
+  <data name="lblCreditCardCVV.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="lblCreditCardCVV.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="lblCreditCardCVV.Text" xml:space="preserve">
+    <value>Kredi Kartı CVV'niz:</value>
+  </data>
+  <data name="&gt;&gt;lblCreditCardCVV.Name" xml:space="preserve">
+    <value>lblCreditCardCVV</value>
+  </data>
+  <data name="&gt;&gt;lblCreditCardCVV.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCreditCardCVV.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;lblCreditCardCVV.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="lblCreditCardType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCreditCardType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 316</value>
+  </data>
+  <data name="lblCreditCardType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="lblCreditCardType.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="lblCreditCardType.Text" xml:space="preserve">
+    <value>Kredi Kartı Tipi:</value>
+  </data>
+  <data name="&gt;&gt;lblCreditCardType.Name" xml:space="preserve">
+    <value>lblCreditCardType</value>
+  </data>
+  <data name="&gt;&gt;lblCreditCardType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCreditCardType.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;lblCreditCardType.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="lblCreditCardNumber.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCreditCardNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 290</value>
+  </data>
+  <data name="lblCreditCardNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="lblCreditCardNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="lblCreditCardNumber.Text" xml:space="preserve">
+    <value>Kredi Kartı Numaranız:
+</value>
+  </data>
+  <data name="&gt;&gt;lblCreditCardNumber.Name" xml:space="preserve">
+    <value>lblCreditCardNumber</value>
+  </data>
+  <data name="&gt;&gt;lblCreditCardNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCreditCardNumber.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;lblCreditCardNumber.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="lblAdress.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAdress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 184</value>
+  </data>
+  <data name="lblAdress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="lblAdress.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="lblAdress.Text" xml:space="preserve">
+    <value>Adresiniz:</value>
+  </data>
+  <data name="&gt;&gt;lblAdress.Name" xml:space="preserve">
+    <value>lblAdress</value>
+  </data>
+  <data name="&gt;&gt;lblAdress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAdress.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;lblAdress.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="lblRegion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRegion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 157</value>
+  </data>
+  <data name="lblRegion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lblRegion.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="lblRegion.Text" xml:space="preserve">
+    <value>İlçeniz:</value>
+  </data>
+  <data name="&gt;&gt;lblRegion.Name" xml:space="preserve">
+    <value>lblRegion</value>
+  </data>
+  <data name="&gt;&gt;lblRegion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRegion.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;lblRegion.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="lblCity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 419</value>
+  </data>
+  <data name="lblCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="lblCity.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="lblCity.Text" xml:space="preserve">
+    <value>İliniz:</value>
+  </data>
+  <data name="&gt;&gt;lblCity.Name" xml:space="preserve">
+    <value>lblCity</value>
+  </data>
+  <data name="&gt;&gt;lblCity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCity.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;lblCity.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="lblCountry.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCountry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 392</value>
+  </data>
+  <data name="lblCountry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="lblCountry.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="lblCountry.Text" xml:space="preserve">
+    <value>Ülkeniz:</value>
+  </data>
+  <data name="&gt;&gt;lblCountry.Name" xml:space="preserve">
+    <value>lblCountry</value>
+  </data>
+  <data name="&gt;&gt;lblCountry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCountry.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;lblCountry.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="lblBirthDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBirthDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 369</value>
+  </data>
+  <data name="lblBirthDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="lblBirthDate.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="lblBirthDate.Text" xml:space="preserve">
+    <value>Doğum Tarihiniz:</value>
+  </data>
+  <data name="&gt;&gt;lblBirthDate.Name" xml:space="preserve">
+    <value>lblBirthDate</value>
+  </data>
+  <data name="&gt;&gt;lblBirthDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBirthDate.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;lblBirthDate.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="lblGender.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGender.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 339</value>
+  </data>
+  <data name="lblGender.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="lblGender.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="lblGender.Text" xml:space="preserve">
+    <value>Cinsiyetiniz:</value>
+  </data>
+  <data name="&gt;&gt;lblGender.Name" xml:space="preserve">
+    <value>lblGender</value>
+  </data>
+  <data name="&gt;&gt;lblGender.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGender.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;lblGender.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="lblPhoneNumber.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPhoneNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 313</value>
+  </data>
+  <data name="lblPhoneNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="lblPhoneNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="lblPhoneNumber.Text" xml:space="preserve">
+    <value>Telefon Numaranız:</value>
+  </data>
+  <data name="&gt;&gt;lblPhoneNumber.Name" xml:space="preserve">
+    <value>lblPhoneNumber</value>
+  </data>
+  <data name="&gt;&gt;lblPhoneNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPhoneNumber.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;lblPhoneNumber.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="lblPassword.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 261</value>
+  </data>
+  <data name="lblPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="lblPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="lblPassword.Text" xml:space="preserve">
+    <value>Şifreniz:</value>
+  </data>
+  <data name="&gt;&gt;lblPassword.Name" xml:space="preserve">
+    <value>lblPassword</value>
+  </data>
+  <data name="&gt;&gt;lblPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPassword.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;lblPassword.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="lblEmail.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 235</value>
+  </data>
+  <data name="lblEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="lblEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="lblEmail.Text" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="&gt;&gt;lblEmail.Name" xml:space="preserve">
+    <value>lblEmail</value>
+  </data>
+  <data name="&gt;&gt;lblEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEmail.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;lblEmail.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="lblNickname.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNickname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 209</value>
+  </data>
+  <data name="lblNickname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="lblNickname.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="lblNickname.Text" xml:space="preserve">
+    <value>Kullanıcı Adınız:</value>
+  </data>
+  <data name="&gt;&gt;lblNickname.Name" xml:space="preserve">
+    <value>lblNickname</value>
+  </data>
+  <data name="&gt;&gt;lblNickname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNickname.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;lblNickname.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="lblLastName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLastName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 183</value>
+  </data>
+  <data name="lblLastName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="lblLastName.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="lblLastName.Text" xml:space="preserve">
+    <value>Soyadınız:</value>
+  </data>
+  <data name="&gt;&gt;lblLastName.Name" xml:space="preserve">
+    <value>lblLastName</value>
+  </data>
+  <data name="&gt;&gt;lblLastName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLastName.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;lblLastName.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="lblFirstName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFirstName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 157</value>
+  </data>
+  <data name="lblFirstName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="lblFirstName.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="lblFirstName.Text" xml:space="preserve">
+    <value>Adınız:</value>
+  </data>
+  <data name="&gt;&gt;lblFirstName.Name" xml:space="preserve">
+    <value>lblFirstName</value>
+  </data>
+  <data name="&gt;&gt;lblFirstName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFirstName.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;lblFirstName.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="btnSupplierRegister.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSupplierRegister.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6.25pt</value>
+  </data>
+  <data name="btnSupplierRegister.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 440</value>
+  </data>
+  <data name="btnSupplierRegister.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 23</value>
+  </data>
+  <data name="btnSupplierRegister.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="btnSupplierRegister.Text" xml:space="preserve">
+    <value>Satıcı mı olmak istiyorsunuz? Hemen tıklayın.</value>
+  </data>
+  <data name="&gt;&gt;btnSupplierRegister.Name" xml:space="preserve">
+    <value>btnSupplierRegister</value>
+  </data>
+  <data name="&gt;&gt;btnSupplierRegister.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSupplierRegister.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;btnSupplierRegister.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="btnGoToLogin.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnGoToLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 238</value>
+  </data>
+  <data name="btnGoToLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="btnGoToLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="&gt;&gt;btnGoToLogin.Name" xml:space="preserve">
+    <value>btnGoToLogin</value>
+  </data>
+  <data name="&gt;&gt;btnGoToLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGoToLogin.Parent" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;btnGoToLogin.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="groupRegister.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-7, -31</value>
+  </data>
+  <data name="groupRegister.Size" type="System.Drawing.Size, System.Drawing">
+    <value>648, 499</value>
+  </data>
+  <data name="groupRegister.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;groupRegister.Name" xml:space="preserve">
+    <value>groupRegister</value>
+  </data>
+  <data name="&gt;&gt;groupRegister.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupRegister.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupRegister.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pbLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 9</value>
+  </data>
+  <data name="pbLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="pbLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pbLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;pbLogo.Name" xml:space="preserve">
+    <value>pbLogo</value>
+  </data>
+  <data name="&gt;&gt;pbLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbLogo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pbLogo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>634, 461</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Giriş Ekranı</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>LoginScreen</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
