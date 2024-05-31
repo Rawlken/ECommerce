@@ -33,6 +33,16 @@ CREATE TABLE `order_details` (
   CONSTRAINT `order_details_ibfk_1` FOREIGN KEY (`productId`) REFERENCES `product` (`productId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `order_details`
+--
+
+LOCK TABLES `order_details` WRITE;
+/*!40000 ALTER TABLE `order_details` DISABLE KEYS */;
+INSERT INTO `order_details` VALUES (1,2,11623.00,1,11623.00),(2,9,2100.00,4,8400.00),(3,10,200.00,4,800.00),(4,9,2099.90,8,16799.20),(5,10,199.90,3,599.70),(6,1,199.99,3,599.97);
+/*!40000 ALTER TABLE `order_details` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -43,4 +53,4 @@ CREATE TABLE `order_details` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-05-30 18:09:14
+-- Dump completed on 2024-05-31 17:41:28

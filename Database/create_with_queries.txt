@@ -1,4 +1,5 @@
 create database ecommercedb;
+
 create table ecommercedb.categories(
 categoryId int primary key auto_increment,
 categoryName varchar(45) not null

@@ -29,6 +29,16 @@ CREATE TABLE `shipper` (
   PRIMARY KEY (`shipperId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `shipper`
+--
+
+LOCK TABLES `shipper` WRITE;
+/*!40000 ALTER TABLE `shipper` DISABLE KEYS */;
+INSERT INTO `shipper` VALUES (1,'MNG Kargo','(850) 222-0606'),(2,'Aras Kargo','(216) 538-5500'),(3,'SÃ¼rat Kargo','(850) 202-0202');
+/*!40000 ALTER TABLE `shipper` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -39,4 +49,4 @@ CREATE TABLE `shipper` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-05-30 18:09:14
+-- Dump completed on 2024-05-31 17:41:28

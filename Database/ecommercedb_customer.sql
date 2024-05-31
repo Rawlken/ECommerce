@@ -45,6 +45,16 @@ CREATE TABLE `customer` (
   CONSTRAINT `customer_ibfk_1` FOREIGN KEY (`creditCardTypeId`) REFERENCES `credit_card_type` (`creditCardTypeId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `customer`
+--
+
+LOCK TABLES `customer` WRITE;
+/*!40000 ALTER TABLE `customer` DISABLE KEYS */;
+INSERT INTO `customer` VALUES (1,'Halil BuÄra','Bayraktar','Rawlken','halilbugrab0655@gmail.com','1234','(545) 271-2734','Erkek','2008-11-26','TÃ¼rkiye','Ankara','Yenimahalle','Gimsa','3687-3265-4126-7186',2,'11/27',876);
+/*!40000 ALTER TABLE `customer` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -55,4 +65,4 @@ CREATE TABLE `customer` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-05-30 18:09:14
+-- Dump completed on 2024-05-31 17:41:28
